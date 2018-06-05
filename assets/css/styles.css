@@ -26,11 +26,6 @@ nav ul li {
  	text-transform: uppercase;
  	display: inline-block;
 }
-
-nav ul li h1 {
- 	font-size: 4rem;
- 	margin: 0;
-}
  
 nav ul li+li {
  	opacity: .5;
@@ -40,26 +35,25 @@ nav ul li+li {
 nav ul li a{
  	text-decoration: none;
  	color: white;
+ 	font-size: 4rem;
 }
 
 li+li:hover {
  	opacity: .7;
 }
 
-.container {
- 	margin-left: 260px;
- 	margin-right: 315px;
-}
-
 p {
 	color: white;
 	margin: 0;
 	line-height: 25px;
+	margin-left: 260px;
 }
 
 .properties {
 	display: flex;
 	margin-top: 60px;
+	margin-left: 170px;
+	margin-right: 200px;
 }
 
 .properties div {
@@ -93,3 +87,5 @@ p {
 	color: #ffffff;
 	font-size: 1.9rem;
 }
+
+
