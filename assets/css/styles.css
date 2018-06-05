@@ -19,7 +19,7 @@ nav {
 nav ul {
  	list-style-type: none;
  	position: relative;
- 	left: 70px;
+ 	left:70px;
 }
 
 nav ul li {
@@ -35,7 +35,8 @@ nav ul li+li {
 nav ul li a{
  	text-decoration: none;
  	color: white;
- 	font-size: 4rem;
+ 	font-size: 3rem;
+ 	font-weight: bold;
 }
 
 li+li:hover {
@@ -49,21 +50,25 @@ p {
 	margin-left: 260px;
 }
 
-.properties {
+.container {
 	display: flex;
-	margin-top: 60px;
-	margin-left: 170px;
-	margin-right: 200px;
+	box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .5);
 }
 
-.properties div {
-	width: 33.33333%;
-	height: auto;
+.properties {
+	margin-top: 60px;
+	margin-left: 155px;
+	display: flex;
+}
+
+.container div {
+	width: 300px;
+	height: 300px;
 	text-align: left;
 	padding: 120px 70px;
 }
 
-.properties span{
+.properties span {
 	color: #d28f8b;
 	font-size: 1.3rem;
 
@@ -89,7 +94,7 @@ p {
 }
 
 .properties button {
-	width: 120px;
+	width: 100px;
 	height: 100px;
 	outline: none;
 	border: none;
@@ -97,14 +102,15 @@ p {
 	font-size: 1.4rem;
 }
 
-.properties button:hover{
+.properties button:hover {
 	opacity: .7;
+	cursor: pointer;
 }
 
 .start {
 	position: relative;
 	top: -32px;
-	left: 303px;
+	left: 280px;
 	outline: none;
 	border: none;
 	background-color: #131313;
@@ -113,9 +119,11 @@ p {
 	height: 60px;
 	width: 250px;
 	font-size: 1.2rem;
+	text-transform: uppercase;
+	transition: .2s;
 }
+
 .start:hover {
 	position: relative;
 	top: -37px;
-	transition: .2s;
 }
