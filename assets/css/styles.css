@@ -10,36 +10,86 @@ body {
 	background-color: #de8a89;
 }
 
- nav {
- 	margin-left: 270px;
+nav {
+ 	margin-left: 150px;
  	margin-top: 80px;
  	overflow: hidden;
- }
+}
 
- nav ul {
+nav ul {
  	list-style-type: none;
  	position: relative;
  	left: 70px;
- }
+}
 
- nav ul li {
+nav ul li {
  	text-transform: uppercase;
  	display: inline-block;
- }
- nav ul li h1 {
- 	font-size: 3.5rem;
+}
+
+nav ul li h1 {
+ 	font-size: 4rem;
  	margin: 0;
- }
+}
  
- nav ul li+li {
+nav ul li+li {
  	opacity: .5;
  	margin-left: 70px;
- }
- nav ul li a{
+}
+
+nav ul li a{
  	text-decoration: none;
  	color: white;
- }
- li+li:hover {
- 	opacity: .7;
- }
+}
 
+li+li:hover {
+ 	opacity: .7;
+}
+
+.container {
+ 	margin-left: 260px;
+ 	margin-right: 315px;
+}
+
+p {
+	color: white;
+	margin: 0;
+	line-height: 25px;
+}
+
+.properties {
+	display: flex;
+	margin-top: 60px;
+}
+
+.properties div {
+	width: 33.33333%;
+	height: auto;
+	text-align: left;
+	padding: 120px 70px;
+}
+
+.properties span{
+	color: #d28f8b;
+	font-size: 1.3rem;
+
+}
+
+.timer {
+	background-color: #3e3c3d;
+}
+
+.temperature {
+	background-color: #353334;
+}
+
+.load {
+	background-color: #201e1f;
+}
+
+.properties h2 {
+	margin: 0;
+	margin-top: 10px;
+	color: #ffffff;
+	font-size: 1.9rem;
+}
