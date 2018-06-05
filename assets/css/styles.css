@@ -88,4 +88,14 @@ p {
 	font-size: 1.9rem;
 }
 
-
+.properties button {
+	width: 120px;
+	height: 100px;
+	outline: none;
+	border: none;
+	opacity: .5;
+	font-size: 1.4rem;
+}
+.properties button:hover{
+	opacity: .7;
+}
