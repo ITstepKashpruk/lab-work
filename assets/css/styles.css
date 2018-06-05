@@ -96,6 +96,26 @@ p {
 	opacity: .5;
 	font-size: 1.4rem;
 }
+
 .properties button:hover{
 	opacity: .7;
+}
+
+.start {
+	position: relative;
+	top: -32px;
+	left: 303px;
+	outline: none;
+	border: none;
+	background-color: #131313;
+	color: white;
+	border-radius: 5px;
+	height: 60px;
+	width: 250px;
+	font-size: 1.2rem;
+}
+.start:hover {
+	position: relative;
+	top: -37px;
+	transition: .2s;
 }
